@@ -2,6 +2,14 @@ body{
   text-align: center;
   background-color: #D1F2EB;
 }
+.portfolio{
+  font-family: 'Lobster', cursive;
+  padding-left: 2%;
+  font-size: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .content{
   font-size: 1.1rem;
 }
@@ -65,10 +73,7 @@ h2{
 }
 .self-img{
   width: 25%;
-  float: left;
-  margin-right: 15px;
-  margin-left: 10px;
-  padding-bottom: 85px;
+  margin-bottom: 20px;
 }
 h3{
   font-family: 'Montserrat';
@@ -118,4 +123,14 @@ p{
   background-color: #A3E4D7;
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+@media (min-width : 900px){
+  .self-img{
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+    padding-bottom: 85px;
+  }
 }
