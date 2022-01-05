@@ -1,0 +1,121 @@
+body{
+  text-align: center;
+  background-color: #D1F2EB;
+}
+.content{
+  font-size: 1.1rem;
+}
+.content:hover{
+  opacity: 0.5;
+
+}
+
+.top-container{
+
+  position: relative;
+}
+.title{
+ font-family: 'Lobster', cursive;
+ font-size: 400%;
+ color:#48C9B0;
+ padding-top: 120px;
+ padding-bottom: 80px;
+}
+
+.cloud1{
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  width: 20%;
+  height: 30%;
+}
+
+.cloud2{
+  position: absolute;
+  top: 185px;
+  left: 30px;
+  width:20%;
+  height:30%;
+}
+.valley1{
+  width:50%;
+
+  padding-top: 50px;
+}
+hr{
+  width: 100%;
+}
+
+h2{
+  text-align: left;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color:#48C9B0;
+  padding-left: 30px;
+}
+#About-Me{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #A3E4D7 ;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 3%;
+}
+.self-img{
+  width: 25%;
+  float: left;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding-bottom: 85px;
+}
+h3{
+  font-family: 'Montserrat';
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Projects{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #A3E4D7 ;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 3%;
+}
+.Memory-Game{
+  margin: 5px 20px 25px 20px;
+  border: 5px solid;
+  border-color: #48C9B0;
+  border-radius: 3%;
+  padding: 30px 5px 20px 5px;
+}
+.JS{
+  width: 20%;
+  margin-bottom: 20px;
+}
+.Snake-Game{
+  margin: 35px 20px 5px 20px;
+  border: 5px solid;
+  border-color: #48C9B0;
+  border-radius: 3%;
+  padding: 30px 5px 20px 5px;
+}
+.snake{
+  width: 20%;
+  margin-bottom: 20px;
+}
+#Contact{
+  background-color: #A3E4D7;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
